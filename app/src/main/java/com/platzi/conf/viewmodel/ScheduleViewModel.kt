@@ -13,7 +13,7 @@ class ScheduleViewModel : ViewModel() {
     var isLoading = MutableLiveData<Boolean>()
 
     fun refresh(){
-        getScheduleFromFirebase()
+          getScheduleFromFirebase()
     }
 
     fun getScheduleFromFirebase(){
