@@ -55,7 +55,7 @@
         tools:layout="@layout/fragment_speakers_detail_dialog">
     </dialog>
     <dialog
-        android:id="@+id/scheduleDetailFragmentDialog"
+         android:id="@+id/scheduleDetailFragmentDialog"
         android:name="com.platzi.conf.view.ui.fragments.ScheduleDetailDialogFragment"
         android:label="ScheduleDetailFragmentDialog"
         tools:layout="@layout/fragment_schedule_detail_dialog">
