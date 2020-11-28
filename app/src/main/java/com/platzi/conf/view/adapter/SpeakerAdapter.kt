@@ -20,7 +20,7 @@ class SpeakerAdapter(val speakerListener: SpeakerListener) : RecyclerView.Adapte
 
     override fun getItemCount() = listSpeakers.size
 
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val speaker = listSpeakers[position]
         holder.tvSpeakerName.text = speaker.name
         holder.tvSpeakerWork.text = speaker.workplace
