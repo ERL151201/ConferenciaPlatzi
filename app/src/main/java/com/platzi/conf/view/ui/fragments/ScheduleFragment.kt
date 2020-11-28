@@ -34,7 +34,7 @@ class ScheduleFragment : Fragment(), ScheduleListener {
         viewModel = ViewModelProviders.of(this).get(ScheduleViewModel::class.java)
         viewModel.refresh()
 
-        scheduleAdapter = ScheduleAdapter(this)
+         scheduleAdapter = ScheduleAdapter(this)
         rvSchedule.apply{
             layoutManager = LinearLayoutManager(view.context, LinearLayoutManager.VERTICAL, false)
             adapter = scheduleAdapter
