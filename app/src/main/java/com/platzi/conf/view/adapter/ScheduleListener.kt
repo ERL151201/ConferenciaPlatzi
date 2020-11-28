@@ -4,5 +4,5 @@ import com.platzi.conf.model.Conferences
 
 
 interface ScheduleListener {
-    fun onConferenceClicked(conference: Conferences, position: Int)
+      fun onConferenceClicked(conference: Conferences, position: Int)
 }
