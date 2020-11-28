@@ -28,7 +28,7 @@ class ScheduleDetailDialogFragment : DialogFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        tolbarConference.navigationIcon = ContextCompat.getDrawable(view.context, R.drawable.ic_close)
+         tolbarConference.navigationIcon = ContextCompat.getDrawable(view.context, R.drawable.ic_close)
         tolbarConference.setTitleTextColor(Color.WHITE)
         tolbarConference.setNavigationOnClickListener{
             dismiss()
