@@ -9,7 +9,7 @@ const val CONFERENCES_COLLECTION_NAME = "conferences"
 const val SPEAKERS_COLLECTION_NAME = "speakers"
 
 class FirestoreService {
-    val firebaseFirestore = FirebaseFirestore.getInstance()
+      val firebaseFirestore = FirebaseFirestore.getInstance()
     val settings = FirebaseFirestoreSettings.Builder().setPersistenceEnabled(true).build()
 
     init {
