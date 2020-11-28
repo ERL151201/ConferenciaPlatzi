@@ -17,7 +17,7 @@ class SpeakersViewModel: ViewModel(){
     }
 
     fun getSpeakersFromFirebase(){
-        firestoreService.getSpeakers(object : Callback<List<Speaker>> {
+          firestoreService.getSpeakers(object : Callback<List<Speaker>> {
             override fun onSuccess(result: List<Speaker>?) {
                 listSpeakers.postValue(result)
                 proccessFinished()

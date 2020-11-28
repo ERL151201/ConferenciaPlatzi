@@ -12,7 +12,7 @@ class ScheduleViewModel : ViewModel() {
     var listSchedule: MutableLiveData<List<Conferences>> = MutableLiveData()
     var isLoading = MutableLiveData<Boolean>()
 
-    fun refresh(){
+      fun refresh(){
           getScheduleFromFirebase()
     }
 
